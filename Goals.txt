@@ -1,0 +1,13 @@
+compile, Jag använde mvn -compile för att kompilera klasserna
+
+ta bort klass filerna med Mvn Clean och mvn clean package, den tar bort target mappen.
+Clean package tar bort och bygger nytt.
+
+ javadoc, skapar javadoc i HTML format, resultatet hamnar under target/reports/apidocs,
+ kan öppnas i webbläsaren med index.html
+
+testning, avänder mvn test, den kompilerar och kör testerna samt
+ger en utvärdering av resultaten
+
+paketering med mvn package, det kör kompilering och sedan testerna. Kör ihop det
+till en jar-fil i target så länge alla tester lyckas!
